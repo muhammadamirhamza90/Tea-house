@@ -38,7 +38,46 @@
 </head>
 
 <body class="font_manrope">
-    <header class="container mx-auto bg-slate-300">
+    <header class="container mx-auto">
+        <!-- Navbar section -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="flex-1">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu text-base menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>News</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-2xl lg:text-4xl"><span class="text-[#F00]">Tea</span> <span
+                            class="text-[#FF8938]">House</span></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-base ">
+                        <li><a>Home</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>News</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="">
+                    <a class="btn bg-gradient-to-r from-[#F00] to-[#FF8938] uppercase text-white">Login</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Banner section -->
         <div class="hero">
             <div class="hero-content flex-col lg:flex-row">
                 <div>
@@ -67,8 +106,8 @@
         </div>
     </header>
     <main>
-        <!-- Featured section -->
-        <section class="container mx-auto bg-lime-200 my-28 text-center">
+        <!-- Our Featured Products section -->
+        <section class="container mx-auto my-28 text-center">
             <div class="justify-center text-center md:mx-4 sm:mx-4">
                 <h3 class="lg:text-5xl font-extrabold text-2xl lg:pb-5 pb-2">Our Featured Products</h3>
                 <p class="px-4">There are many variations of passages of Lorem Ipsum available, but the majority have
@@ -217,7 +256,7 @@
         </section>
 
         <!-- News & Events -->
-        <section class="container mx-auto bg-slate-500 mt-32 lg:pl-16 px-4 lg:py-24 py-4">
+        <section class="container mx-auto mt-32 lg:pl-16 px-4 lg:py-24 py-4">
             <div class="text-center">
                 <h3 class="lg:text-5xl text-3xl font-extrabold">News & Events</h3>
                 <p class="mt-5 mb-12">
@@ -269,12 +308,12 @@
         </section>
 
         <!-- footer section -->
-        <footer class="lg:mt-36 mt-11 lg:p-40 p-4  text-base-content bg-base-200 lg:relative">
+        <footer class="lg:mt-36 mt-11 lg:p-40 p-4  text-base-content bg-pink-50 lg:relative">
             <div class="grid  lg:grid-flow-col grid-flow-row lg:my-24 my-8">
                 <img class="mb-2 pr" src="./assets/cup.png" alt="">
                 <p class="lg:absolute right-96">
-                    <span class="pr-10">Ready to get strated?</span>
-                    <button class="btn bg-gradient-to-r from-[#F00] to-[#FF8938]  text-white mt-4 lg:pl-10">Get
+                    <span class="lg:pr-10">Ready to get strated?</span>
+                    <button class="btn bg-gradient-to-r from-[#F00] to-[#FF8938]  text-white mt-4">Get
                         Started</button>
                 </p>
             </div>
@@ -320,7 +359,7 @@
                 </form>
             </div>
             <div class="lg:mt-28 mt-5 text-center">
-                <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+                <p>© 2027 UIDesign.to - All rights reserved.</p>
             </div>
         </footer>
     </main>
